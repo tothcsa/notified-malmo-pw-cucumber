@@ -39,7 +39,7 @@ This is a demo project in CucumberJS and Playwright
 ```javascript
 // ./features/support/world.js
 async checkBodyTextContains (str) {
-  const tx = await this.page.textContent('body')
+  const tx = await this.page.innerText('body')
   expect(tx.includes(str)).to.be.ok()
 }
 ```
