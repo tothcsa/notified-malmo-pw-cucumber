@@ -28,7 +28,7 @@ class CustomWorld {
   }
 
   async checkBodyTextContains (str) {
-    const tx = await this.page.textContent('body')
+    const tx = await this.page.innerText('body')
     expect(tx.includes(str)).to.be.ok()
   }
 }
