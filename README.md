@@ -1,6 +1,6 @@
 # notified-malmo-pw-cucumber
 
-This is a demo project in CucumberJS and Plawwright
+This is a demo project in CucumberJS and Playwright
 
 ## Requirements
 
@@ -27,7 +27,7 @@ This is a demo project in CucumberJS and Plawwright
 
 ## Structure
 
-- The sructure of the project is based on the official documentation.
+- The structure of the project is based on the official documentation.
   - Features: `./features`
     - test file: `./features/search.feature`
   - Support: `./features/support`
@@ -54,7 +54,7 @@ async checkBodyTextContains (str) {
 
 ## Localization
 
-- The chromium browser context is locted: `en-GB`
+- The context of chromium-browser is located: `en-GB`
 
 ```javascript
 // ./features/support/world.js
